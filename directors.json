@@ -1,0 +1,22 @@
+[
+    {
+        "d_id": "ghL4x2UhYlUAzCl",
+        "first_name": "Gore",
+        "last_name": "Verbinski",
+        "desc": "Gore Verbinski, one of American cinema's most inventive directors who was a punk-rock guitarist as a teenager and had to sell his guitar to buy his first camera, is now the director of Pirates of the Caribbean: Dead Man's Chest (2006) which made the industry record for highest opening weekend of all time ($135,600,000) and grossed over $1 billion dollars worldwide.",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTY5ODAzNzg5OV5BMl5BanBnXkFtZTcwOTkwMjIwMQ@@._V1_UY317_CR16,0,214,317_AL_.jpg",
+        "born_year": 1964,
+        "birth_place": "Oak Ridge, Tennessee, USA",
+        "height": "6' 1\""
+    },
+    {
+        "d_id": "3vXDrUUb9ye6zUR",
+        "first_name": "Pete",
+        "last_name": "Docter",
+        "desc": "Pete Docter was born on October 9, 1968 in Bloomington, Minnesota, USA as Peter Hans Docter. He is a writer, known for Up (2009), Inside Out (2015) and Monsters, Inc. (2001). He has been married to Amanda Jean Schmidt since December 27, 1992. They have two children.",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTQzNzM1NTc2Nl5BMl5BanBnXkFtZTcwNTM2MTMyMw@@._V1_UY317_CR20,0,214,317_AL_.jpg",
+        "born_year": 1968,
+        "birth_place": "Bloomington, Minnesota, USA",
+        "height": "6' 4\""
+    }
+]
