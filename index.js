@@ -51,14 +51,22 @@ app.post('/moviePOST', (req, res, next) => {
         length_min: body.length,
         MPAA: body.MPAA
     };
-    queries.createMovie(newObj).then(Movie => res.send(Movie))
+    queries.createMovie(newObj)
+    .then(Movie => res.send(Movie))
 })
 
-app.delete('/movieDELETE/m_id/:id', (req, res, next) => {
-    queries.deleteMovie(req.params.id).then(Movie => {
-        res.send(Movie)
+app.put('/moviePUT', (req, res, next) => {
+    const body = req.body;
+    queries.updateMovie(body.m_id, body)
+    .then(Movie => res.send(Movie))
+});
+
+app.delete('/movieDELETE', (req, res, next) => {
+    queries.deleteMovie(req.body.m_id)
+    .then(Movie => {
+        res.status(200).send(Movie);
     })
-    .then(res.sendStatus(204))
+    
 })
 
 

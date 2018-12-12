@@ -12,8 +12,8 @@ module.exports = {
     },
     deleteMovie(id){
         return db.delete().from('movies').where('m_id', id).returning('*');
+    },
+    updateMovie(id, updateMovieInfo) {
+        return db.update(updateMovieInfo).from('movies').where('m_id', id).returning('*');
     }
-    // updateStudent(id, updateStudentInfo) {
-    //     return db.update(updateStudentInfo).from('students').where('id', id).returning('*');
-    // }
  }
