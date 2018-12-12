@@ -1,6 +1,6 @@
 exports.up = function(knex, Promise) {
     return knex.schema.createTable('movies', (movie) => {
-        movie.string('m_id')
+        movie.increments('m_id')
         movie.string('name')
         movie.string('desc')
         movie.string('type')

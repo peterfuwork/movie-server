@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-var cors = require('cors');
-var randomString = require('random-string');
+const cors = require('cors');
+// const randomString = require('random-string');
 const PORT = process.env.PORT || 4000;
 const queries = require('./queries');
 
@@ -33,14 +33,13 @@ app.get('/movies/m_id/:id', (req, res) => {
 app.post('/moviePOST', (req, res, next) => {
     console.log('req.body', req.body)
     const body = req.body;
-    const randomStr = randomString({
-        length: 10,
-        numeric: true,
-        letters: true,
-        special: false
-    });
+    // const randomStr = randomString({
+    //     length: 10,
+    //     numeric: true,
+    //     letters: true,
+    //     special: false
+    // });
     const newObj = {
-        m_id: randomStr,
         name: body.name,
         desc: body.desc,
         type: body.type,
@@ -68,6 +67,12 @@ app.delete('/movieDELETE', (req, res, next) => {
     })
     
 })
+
+app.get('/movies/test/', (req, res, next) => {
+    console.log(req.query);
+    const newObj = { type: req.query.type, stars: Number(req.query.stars)};
+    res.send(newObj);
+});
 
 
 app.listen(PORT);

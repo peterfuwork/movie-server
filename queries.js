@@ -2,7 +2,7 @@ const db = require('./database-connection');
 
 module.exports = {
     getAllMovies() {
-        return db('movies');
+        return db('movies').orderBy('m_id', 'asc');
     },
     getById(id){
         return db.select().from('movies').where('m_id', id);

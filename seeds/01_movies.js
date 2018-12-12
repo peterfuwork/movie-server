@@ -6,7 +6,6 @@ exports.seed = function(knex, Promise) {
       // Inserts seed entries
       return knex('movies').insert([
         { 
-          m_id: "MkwrisHGRA",
           name: "Pirates of the Caribbean: The Curse of the Black Pearl",
           desc : "Blacksmith Will Turner teams up with eccentric pirate \"Captain\" Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
           type: "Action",
@@ -18,7 +17,6 @@ exports.seed = function(knex, Promise) {
           MPAA: "PG-13"
         },
         {
-          m_id: "9n1FttK7MQ",
           name: "Inside Out",
           desc : "After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city, house, and school.",
           type: "Animation",
@@ -30,7 +28,6 @@ exports.seed = function(knex, Promise) {
           MPAA: "PG"
         },
         {
-          m_id: "dfUl8yRCZB",
           name: "Fifty Shades of Grey",
           desc : "Literature student Anastasia Steele's life changes forever when she meets handsome, yet tormented, billionaire Christian Grey.",
           type: "Drama",
@@ -42,7 +39,6 @@ exports.seed = function(knex, Promise) {
           MPAA: "R"
         },
         {
-          m_id: "r4LB4QphU2",
           name: "Batman Begins",
           desc : "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
           type: "Action",
@@ -54,11 +50,10 @@ exports.seed = function(knex, Promise) {
           MPAA: "PG-13"
         },
         {
-          m_id: "neJIkhojLt",
           name: "The Hunger Games",
           desc: "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.",
           type: "Sci-Fi",
-          image: "https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+          image: "https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
           director: "Gary Ross",
           year: 2012,
           stars: 3.5,
@@ -66,7 +61,6 @@ exports.seed = function(knex, Promise) {
           MPAA: "PG-13"
         },
         {
-          m_id: "ce1hl0gba",
           name: "Mission: Impossible - Fallout",
           desc : "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
           type: "Action",
@@ -78,7 +72,6 @@ exports.seed = function(knex, Promise) {
           MPAA: "PG-13"
         },
         {
-          m_id: "ARUQxd7GPp",
           name: "Crazy Rich Asians",
           desc : "This contemporary romantic comedy, based on a global bestseller, follows native New Yorker Rachel Chu to Singapore to meet her boyfriend's family.",
           type: "Comedy",
@@ -90,7 +83,6 @@ exports.seed = function(knex, Promise) {
           MPAA: "PG-13"
         },
         {
-          m_id: "HsR1AlsAR8",
           name: "Fury",
           desc : "A grizzled tank commander makes tough decisions as he and his crew fight their way across Germany in April, 1945.",
           type: "War",
@@ -102,7 +94,6 @@ exports.seed = function(knex, Promise) {
           MPAA: "R"
         },
         {
-          m_id: "a45fzTHLNy",
           name: "Transformers: The Last Knight",
           desc : "Autobots and Decepticons are at war, with humans on the sidelines. Optimus Prime is gone. The key to saving our future lies buried in the secrets of the past, in the hidden history of Transformers on Earth.",
           type: "Action",
@@ -114,7 +105,6 @@ exports.seed = function(knex, Promise) {
           MPAA: "PG-13"
         },
         {
-          m_id: "T1lazK0RIe",
           name: "Captain America: Civil War",
           desc : "Political involvement in the Avengers' activities causes a rift between Captain America and Iron Man.",
           type: "Action",
@@ -126,7 +116,6 @@ exports.seed = function(knex, Promise) {
           MPAA: "PG-13"
         },
         {
-          m_id: "AjZD07NS6d",
           name: "Spirited Away",
           desc : "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
           type: "Animation",
@@ -138,7 +127,6 @@ exports.seed = function(knex, Promise) {
           MPAA: "PG"
         },
         {
-          m_id: "4Qucktko7R",
           name: "Finding Dory",
           desc : "The friendly but forgetful blue tang fish, Dory, begins a search for her long-lost parents, and everyone learns a few things about the real meaning of family along the way.",
           type: "Animation",
@@ -150,7 +138,6 @@ exports.seed = function(knex, Promise) {
           MPAA: "PG"
         },
         {
-          m_id: "ixNC1O6GKn",
           name: "Christmas Harmony",
           desc : "Kelley Jakle stars as young woman who returns to her small hometown to rediscover music, family bonds, and the magic of the Christmas season.",
           type: "Comedy",
@@ -162,7 +149,6 @@ exports.seed = function(knex, Promise) {
           MPAA: "TV-PG"
         },
         {
-          m_id: "3PjtyNUMBI",
           name: "Harry Potter and the Sorcerer's Stone",
           desc : "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
           type: "Adventure",
@@ -174,7 +160,6 @@ exports.seed = function(knex, Promise) {
           MPAA: "PG"
         },
         {
-          m_id: "mEeFUW2gHC",
           name: "Mary Queen of Scots",
           desc: "Mary Stuart's attempt to overthrow her cousin Elizabeth I, Queen of England, finds her condemned to years of imprisonment before facing execution.",
           type: "Biography",
